@@ -1,0 +1,70 @@
+body {
+  background-color: #3f1a13;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: #1f0309;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 2rem 2rem 0 0;
+  font-weight: lighter;
+}
+#main {
+  background-color: #ffffff;
+  width: 35%;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  height: 45rem;
+  text-align: center;
+  -webkit-box-shadow: 22px 20px 14px -14px rgba(125, 87, 80, 1);
+  -moz-box-shadow: 22px 20px 14px -14px rgba(125, 87, 80, 1);
+  box-shadow: 22px 20px 14px -14px rgba(125, 87, 80, 1);
+}
+label {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+}
+form {
+  text-align: left;
+  margin: 1.5rem;
+}
+input,
+select {
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+button {
+  background-color: #ae333a;
+  color: #ffffff;
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+h2,
+h3 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}
